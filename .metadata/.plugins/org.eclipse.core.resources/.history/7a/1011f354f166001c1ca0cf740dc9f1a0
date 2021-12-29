@@ -1,0 +1,16 @@
+//년,월,일
+//2021년 12월 27일 월요일
+//int d 받아서 요일이 보이게
+
+package com.day4;
+
+public class Quiz4 {
+
+	public static void main(String[] args) {
+		
+
+		
+
+	}
+
+}

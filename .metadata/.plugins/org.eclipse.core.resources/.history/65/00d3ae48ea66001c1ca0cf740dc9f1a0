@@ -1,0 +1,20 @@
+//5개의 정수를 입력받아 입력받은 수를 출력하고
+//입력받은 수 중 가장 큰 수와 작은 수를  출력
+
+package com.day4;
+
+import java.util.Random;
+
+public class Test7 {
+
+	public static void main(String[] args) {
+		
+		Random rd = new Random();
+		int[] num = new int[5];
+		int i,j,n,temp;
+		
+		System.out.println("수?"+ i);
+
+	}
+
+}

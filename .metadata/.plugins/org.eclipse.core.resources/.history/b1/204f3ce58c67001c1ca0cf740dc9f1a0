@@ -1,0 +1,19 @@
+package com.day5;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+		String str = "seoul korea";
+		//index :     012345678910(0)
+		
+		System.out.println(str);
+		System.out.println(str.substring(0, 8));
+		System.out.println(str.substring(6, 8));
+		System.out.println(str.substring(6));
+		
+		
+		
+	}
+
+}

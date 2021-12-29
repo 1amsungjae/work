@@ -1,0 +1,11 @@
+//두수를 입력 받아 적은 수에서 큰수까지의 합
+
+package com.day3;
+
+public class Test11 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

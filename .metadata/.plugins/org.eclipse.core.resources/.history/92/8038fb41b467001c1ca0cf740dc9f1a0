@@ -1,0 +1,18 @@
+package com.day4;
+
+import com.day5.Self;
+
+public class Self_2 {
+
+	public static void main(String[] args) {
+		
+		Self ksj = new Self();
+		
+		ksj.input();
+		int aa = ksj.area();
+		int ll = ksj.length();
+		ksj.print(aa, ll);
+
+	}
+
+}

@@ -1,0 +1,45 @@
+package com.day5;
+
+import java.util.Scanner;
+
+public class Test3 {
+
+	public static void main(String[] args) {	
+		
+		//jumin : 941228-1056789
+		//check : 234567 892345
+		
+		//합 = (9*2) + (4*3) +...+ (8*5)
+		//합 = 11 - 합 % 11
+		//합 = 합%10
+		//합 == 9 (주민번호 맨 뒷자리 값과 같다)
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String jumin;
+		int[] chk = {2,3,4,5,6,7,8,9,2,3,4,5};
+		int i,tot,su;
+		
+		System.out.print("주민번호[xxxxxx-xxxxxxx]? : ");
+		jumin = sc.next();
+		
+		
+		
+		
+		
+	
+		
+	}
+
+}
+
+
+/*String str = "seoul korea";
+index :     012345678910(0)
+
+
+System.out.println(str);
+System.out.println(str.substring(0, 8));//첫 index 값부터
+System.out.println(str.substring(6, 8));//두번째 index 값까지 출력
+System.out.println(str.substring(6));//숫자부터의 index부터 끝까지 출력
+*/

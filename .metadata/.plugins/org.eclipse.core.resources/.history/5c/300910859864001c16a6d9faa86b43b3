@@ -1,0 +1,28 @@
+//1에서 100까지의 수중 3의 배수의 갯수
+//3의 배수의 갯수 : 33
+//수를 나누었을때 0으로 떨어질때마다 증가시키기 i++
+
+package com.day3;
+
+import java.util.Scanner;
+
+public class Test10 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in); 
+		int n = scan.nextInt(); 
+		int mok, nmg; int sum = 0; // 배수들을 더할 변수
+		int count = 0; // 개수를 더할 변수 
+		for(int i = 1; i <= 100; i++)
+		
+		{ sum += i; count++; //나머지가 0이면, 배수이기 때문에 //sum에 더해주고 count 하나씩 더해준다. 
+		}
+		 System.out.println(sum + " " + count);
+	}
+
+
+
+}
+
+

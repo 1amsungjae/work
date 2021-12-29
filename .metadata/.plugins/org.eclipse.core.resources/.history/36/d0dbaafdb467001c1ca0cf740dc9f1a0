@@ -1,0 +1,44 @@
+package com.day5;
+
+import java.util.Scanner;
+
+public class Self {
+	
+	int w,h;
+	
+	public void input() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("가로?");
+		w = sc.nextInt();
+		
+		System.out.println("세로?");
+		h = sc.nextInt();
+		
+		
+	}
+	
+	public int area() {
+		
+		int result;
+		result = w * h;
+		
+		return result;
+	}
+	
+	public int length() {
+		
+		return (w + h) * 2;
+	}
+	
+	public void print(int a,int l) {
+		
+		System.out.println("가로?"+ w);
+		System.out.println("세로?"+ h);
+		System.out.println("넓이?"+ a);
+		System.out.println("둘레?"+ l);
+		
+	}
+
+}

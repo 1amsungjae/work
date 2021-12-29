@@ -1,0 +1,45 @@
+//이름과 3과목을 입력받아
+//모든 과목의 점수가 40점이상 평균이 60점이상 합격
+//한과목이라도 점수가 40점미만 평균이 60점 이상 과락
+//평균이 60점 미만이면 불합격
+
+package com.day2;
+
+import java.util.Scanner;
+
+public class Test13 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String name;
+		int kor,eng,mat;
+		
+		System.out.print("이름?");//sungjae
+		name = sc.next();
+		
+		System.out.println("국어?");
+		kor = sc.nextInt();
+		System.out.println("영어?");
+		eng = sc.nextInt();
+		System.out.println("수학?");
+		mat = sc.nextInt();
+		
+		String pan = null;
+		
+		if(kor >= 40 ) {
+			pan = "합격";				
+		}else if(eng>=40) {
+			pan = "합격";
+		}else if(mat>=40) {
+			pan = "합격";
+		}else if((kor+eng+mat)/3 >=60) {
+			pan = "합격";
+		}
+		
+		System.out.println(name + ":" + pan);
+
+	}
+
+}

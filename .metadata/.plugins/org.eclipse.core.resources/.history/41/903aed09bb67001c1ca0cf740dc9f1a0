@@ -1,0 +1,45 @@
+package com.day5;
+
+import java.util.Scanner;
+
+public class Self2 {
+	
+	int a,b;
+	
+	public void input() {
+		
+		Scanner sn = new Scanner(System.in);
+		
+		System.out.println("Á¤¼ö??");
+		a = sn.nextInt();
+		
+		System.out.println("Á¤¼ö??");
+		b = sn.nextInt();
+		
+	}
+	
+	public int haha() {
+		
+		int hoho;
+		hoho = (a + b);
+		
+		return hoho;
+		
+	}
+	
+	public int kiki() {
+		
+		return (a - b);
+		
+	}
+	
+	public void print(int h,int k) {
+		
+		System.out.println("Á¤¼ö?"+ a);
+		System.out.println("Á¤¼ö?"+ b);
+		System.out.println("µ¡¼À!"+ h);
+		System.out.println("»¬¼À!"+ k);
+	}
+	
+
+}

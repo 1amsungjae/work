@@ -1,0 +1,12 @@
+//단가 15800원짜리 일정 수량 이상 구매시 할인을 해준다.
+//10개이상 10%  20개이상 15%  30개이상 20% 판매 금액을 계산해보자. ex) 15개 213300원
+
+package com.day2;
+
+public class Test12 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

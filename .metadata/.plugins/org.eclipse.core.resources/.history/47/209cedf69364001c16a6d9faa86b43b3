@@ -1,0 +1,24 @@
+//1에서 100까지 수의 홀수의 합, 짝수의 합, 전체의 합
+
+package com.day3;
+
+import java.util.Scanner;
+
+public class Test9 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int su,sum = 0;
+		char ch;
+
+		while(true){
+			do {
+
+			}while
+		}
+
+	}
+
+}

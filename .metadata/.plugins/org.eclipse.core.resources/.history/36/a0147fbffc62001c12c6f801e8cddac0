@@ -1,0 +1,40 @@
+package com.day1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import javax.swing.plaf.synth.SynthToggleButtonUI;
+
+public class Test6 {
+
+	public static void main(String[] args) throws IOException {
+		
+		//선언
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		
+		int width,height,area;
+		
+		//입력
+		System.out.print("밑변?");//
+		width = br.readLine();
+				
+		System.out.print("높이?");
+		height = Integer.parseInt(br.readLine());
+		
+		System.out.print("넓이?");
+		area = Integer.parseInt(br.readLine());
+		
+		//연산
+		area = width * height / 2;
+		
+		//출력
+		System.out.println("밑변: " + width);
+		System.out.println("높이: " + height);
+		System.out.println("넓이: " + area + "cm");
+		
+
+	}
+
+}

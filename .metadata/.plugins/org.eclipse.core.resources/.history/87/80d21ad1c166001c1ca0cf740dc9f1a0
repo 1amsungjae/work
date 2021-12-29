@@ -1,0 +1,22 @@
+package com.day4;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+		//selection sort 
+		//비교하는대상 첫번째가 기준
+		
+		int[] num = {50,42,37,26,5};
+		int i,j,temp;
+		
+		System.out.println("Source Data : ");
+		for(i=0;i<num.length;i++) {
+			System.out.printf("%4d",i);
+		}
+		System.out.println();
+		
+
+	}
+
+}

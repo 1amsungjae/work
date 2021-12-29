@@ -1,0 +1,12 @@
+//1~10사이의 난수를 발생시켜 발생시킨 난수를 3번안에 맞추는 게임
+//3번안에 맞추지 못하면 정답을 공개
+
+package com.day4;
+
+public class Quiz2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

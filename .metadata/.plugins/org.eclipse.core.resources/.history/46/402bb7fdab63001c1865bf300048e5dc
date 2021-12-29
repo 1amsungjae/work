@@ -1,0 +1,15 @@
+package com.day2;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		
+		//자료형 char
+		
+		char ch = 'ㅋ'; //char는 ' ' 안에 한글자만 가능
+		
+		System.out.println(ch);
+
+	}
+
+}
